@@ -7,6 +7,6 @@ func main
 	? "See the folder : ring/samples/3D/cameraandbackground"
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
-	chdir(exefolder()+"/../samples/3D/camera")
+	chdir(exefolder()+"/../samples/3D/cameraandbackground")
 	system("ring Camera.ring")
 	chdir(cDir)
